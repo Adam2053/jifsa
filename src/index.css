@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow Semi Condensed", sans-serif !important;
+  font-style: normal;
+  /* overflow-x: hidden !important; */
+}
+
+#root {
+  --text-color-1: #00a0e3;
+  --text-color-2: #e31e24;
+  --text-color-3: #e98484;
+  --text-color-4: #262222;
+  --text-color-5: #00a3ff;
+  --bg-1: #151515;
+  --card-bg: #363636;
+  --gradient-1: #e75959;
+  --gradient-2: #00a0e3;
+  --heading-size: 7rem;
+  --subheading: 3rem;
+  --paragraph: 2rem;
+}

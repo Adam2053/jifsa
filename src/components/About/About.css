@@ -1,0 +1,87 @@
+.about-container {
+  background: var(--bg-1);
+  min-height: 60dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 15rem;
+  color: white;
+}
+
+.left-abt h1 {
+  font-size: 3rem;
+  color: grey;
+}
+
+.abt-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: 1.5rem;
+  background: linear-gradient(
+    0deg,
+    rgba(250, 134, 86, 1) 0%,
+    rgba(227, 30, 36, 1) 100%
+  );
+  color: white;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.abt-btn button {
+  padding: 0.7rem;
+  transition:  0.5s ease-in-out;
+  
+  font-size: 1rem;
+}
+
+.abt-btn button:hover {
+  background-color: var(--text-color-1) !important;
+  border-radius: 10px !important;
+}
+
+.right-abt {
+  max-width: 20%;
+  font-size: 3rem;
+}
+
+.right-abt h1 {
+  color: var(--text-color-2);
+  font-size: 3rem;
+}
+
+.right-abt h3 {
+  font-size: 1.3rem;
+  color: var(--text-color-2);
+}
+
+.right-abt span {
+  color: var(--text-color-1);
+}
+
+.right-abt p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: grey;
+}
+
+
+@media screen and (max-width: 1420px) {
+  .about-container{
+    flex-direction: column;
+    gap: 2rem 0;
+    padding-block: 4rem;
+  }
+
+  .right-abt{
+    max-width: 100%;
+  }
+
+  .right-abt > h3, .right-abt> p {
+    margin-bottom: 2rem;
+  }
+
+}
+

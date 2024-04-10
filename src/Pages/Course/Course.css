@@ -1,0 +1,126 @@
+.course-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: white;
+  color: white;
+}
+
+.course-container > h3 {
+  font-size: 2rem;
+  color: var(--text-color-1);
+  font-weight: bold;
+}
+
+.course-container > h1 {
+  font-size: 4rem;
+  color: var(--text-color-2);
+  font-weight: bold;
+}
+
+.courses {
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5.5rem;
+  padding: 3rem 1.2rem;
+}
+
+.course h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  margin-block: 1.5rem;
+  min-height: 85px;
+}
+
+.course h3 {
+  font-size: 1.1rem;
+  color: black;
+  font-weight: 500;
+}
+
+.course-container > p {
+  font-size: 1.4rem;
+  color: var(--text-color-4);
+}
+
+.course {
+  /* background-color: #C0C0C0; */
+
+  background-image: linear-gradient(to right, #a2ddf4, #ff6565);
+  scale: 0.8;
+  opacity: 0;
+  /* box-shadow: 0 0 11px 1px #ff2828; */
+  padding: 2rem;
+  min-height: 200px;
+  position: relative;
+  width: 400px;
+  border-radius: 20px;
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+  transition: all 0.2s ease-in-out;
+  /* border: 2px solid white; */
+}
+
+.course-all:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 11px 1px black;
+}
+
+.course-btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.7rem;
+  background: black;
+  color: white;
+  border-radius: 0px 10px;
+}
+
+.course-btn button:hover {
+  color: grey;
+}
+
+.strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  border-radius: 0px 10px 0px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: max-content;
+  padding-inline: 1rem;
+  height: 10%;
+  background-color: #00a0e3 !important;
+}
+.hidden {
+  display: hidden !important;
+}
+
+@keyframes translate {
+  to {
+    scale: 1;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade-in {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .courses {
+    width: 99vw;
+  }
+}

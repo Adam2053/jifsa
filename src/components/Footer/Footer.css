@@ -1,0 +1,21 @@
+.footer-new{
+    margin: 0;
+    background: #d9d9d94f;
+    width: 100%;
+    max-width: 100vw;
+    color: white;
+    
+    border-top: 1px solid rgb(138, 138, 138);
+}
+
+.footer-cont{
+    padding-inline: 12rem;
+    gap: 0 5rem;
+}
+
+@media screen and (max-width: 490px) {
+    .footer-cont{
+        padding-inline: 0;
+    }
+    
+  }

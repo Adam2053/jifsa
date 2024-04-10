@@ -1,0 +1,132 @@
+.nav-container{
+    padding-inline: 12rem;
+    padding-block: 1rem;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 22;
+    min-height: fit-content;
+    max-width: 100%;
+    box-shadow: -1px 3px 64px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 3px 64px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 64px 4px rgba(0, 0, 0, 0.75);
+    z-index: 100;
+}
+.ham{
+    transition: all 0.3s ease-in;
+}
+
+.partners-img{
+    height: 6vh;
+    max-width: 20%;
+}
+
+ul > li {
+    padding-inline: 1.5rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+
+ul > li:hover{
+    color: grey;
+
+}
+
+.nav-btn {
+    background-color: #00a0e3;
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    border-radius: 13px;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-btn:hover{
+    background-color: red;
+}
+
+
+
+.drop-down > li {
+    display: block;
+}
+.drop-parent:hover .drop-down{
+    display: block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    /* background-color: #04AA6D; */
+    color: black;
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {color: red;}
+
+@media screen and (max-width: 768px) {
+    .nav-container{
+        padding-inline: 2rem;
+    }
+    .nav-btn{
+        background-color: lightgreen;
+    }
+    
+
+    ul > li {
+        padding-inline: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .nav-container{
+        padding-inline: 1rem;
+    }
+
+    ul > li {
+        padding-inline: 0.3rem;
+    }
+
+    .partners-img{
+        height: 4vh;
+        max-width: 25%;
+    }
+  
+    .nav-btn{
+        display: none;
+    }
+}

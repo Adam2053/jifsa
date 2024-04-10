@@ -1,0 +1,44 @@
+[
+  {
+    "id": 12,
+    "course": "CERTIFICATE OF FIREFIGHTING TRAINING",
+    "duration": "200Hrs.",
+    "eligibility": "+2 Year Work Exp.",
+    "details": "This intensive training program equips participants with essential firefighting skills and knowledge. Through a combination of theoretical learning and practical exercises, participants learn fire prevention techniques, firefighting strategies, and how to respond to emergency situations effectively."
+  },
+  {
+    "id": 13,
+    "course": "CERTIFICATE OF ENVIRONMENT SAFETY MANAGEMENT TRAINING",
+    "duration": "200Hrs.",
+    "eligibility": "+2 Year Work Exp.",
+    "details": "This course focuses on environmental safety management practices in various industries. Participants learn about environmental regulations, risk assessment, waste management, and strategies for promoting environmental sustainability in the workplace."
+  },
+  {
+    "id": 14,
+    "course": "FIRE AND SAFETY TRAINING PROGRAMME",
+    "duration": "150Hrs.",
+    "eligibility": "+1 Year Work Exp.",
+    "details": "Designed for individuals with basic experience in the field, this training program provides comprehensive instruction on fire safety procedures, hazard identification, and emergency response protocols. Participants gain practical skills to mitigate fire risks and ensure workplace safety."
+  },
+  {
+    "id": 15,
+    "course": "INDUSTRIAL SAFETY TRAINING PROGRAMME",
+    "duration": "150Hrs.",
+    "eligibility": "+2 Year Work Exp.",
+    "details": "This program focuses on industrial safety practices tailored to manufacturing, production, and industrial settings. Participants learn about machinery safety, chemical handling, personal protective equipment (PPE), and regulatory compliance to prevent workplace accidents and injuries."
+  },
+  {
+    "id": 16,
+    "course": "CONSTRUCTION SAFETY MANAGEMENT TRAINING PROGRAMME",
+    "duration": "150Hrs.",
+    "eligibility": "+1 Year Work Exp.",
+    "details": "Geared towards construction industry professionals, this training program covers safety management principles specific to construction sites. Topics include risk assessment, scaffolding safety, electrical safety, and accident prevention measures to ensure a safe working environment on construction projects."
+  },
+  {
+    "id": 17,
+    "course": "CONTROLLING OF WORKPLACE HAZARDS",
+    "duration": "100Hrs.",
+    "eligibility": "+1 Year Work Exp.",
+    "details": "This course focuses on identifying and controlling workplace hazards across various industries. Participants learn about common workplace hazards such as slips, trips, falls, chemical exposures, and ergonomic risks. Strategies for hazard prevention and mitigation are emphasized to promote workplace safety and reduce accidents."
+  }
+]

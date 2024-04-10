@@ -1,0 +1,19 @@
+.bt-dede{
+    transition: all 0.3s ease;
+}
+.bt-dede:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 768px) {
+    .course-hero-content{
+        padding-inline: 0 !important;
+    }
+    .course-hero-content-right{
+        width: 100% !important;
+    }
+    .course{
+        width: auto;
+    }
+  }

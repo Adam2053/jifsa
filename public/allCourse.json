@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "course": "ADVANCE CERTIFICATE IN FIRE AND SAFETY",
+    "duration": "1 Year",
+    "eligibility": "10th & Above",
+    "details": "This course offers comprehensive training in fire prevention, firefighting techniques, and safety protocols. Students will gain practical skills and theoretical knowledge to handle fire emergencies effectively in various settings."
+  },
+  {
+    "id": 2,
+    "course": "ADVANCE CERTIFICATE IN SAFETY HEALTH AND ENVIRONMENT MANAGEMENT",
+    "duration": "1 Year",
+    "eligibility": "10th & Above",
+    "details": "This course focuses on safety, health, and environmental management practices in diverse workplaces. Students will learn risk assessment, compliance regulations, and strategies for maintaining a safe and healthy work environment."
+  },
+  {
+    "id": 3,
+    "course": "ADVANCE CERTIFICATE IN CONSTRUCTION AND INDUSTRIAL SAFETY",
+    "duration": "1 Year",
+    "eligibility": "12th & Above",
+    "details": "Geared towards individuals interested in the construction and industrial sectors, this course provides in-depth training on safety procedures specific to these industries. Topics include hazard identification, equipment safety, and emergency response planning."
+  },
+  {
+    "id": 4,
+    "course": "ADVANCE CERTIFICATE IN INDUSTRIAL FIRE SAFETY MANAGEMENT",
+    "duration": "1 Year",
+    "eligibility": "12th & Above",
+    "details": "Focusing on industrial settings, this course covers fire safety management practices tailored to manufacturing plants, warehouses, and industrial complexes. Students will learn fire prevention strategies, emergency protocols, and regulatory compliance."
+  },
+  {
+    "id": 5,
+    "course": "PROFESSSIONAL CERTIFICATION PROGRAM IN FIRE AND INDUSTRIAL SAFETY MANAGEMENT",
+    "duration": "1 Year",
+    "eligibility": "Graduate & Above",
+    "details": "Designed for individuals with a higher educational background, this program offers advanced training in fire and industrial safety management. Topics include risk analysis, incident investigation, and strategic safety planning to prepare students for leadership roles in safety management."
+  },
+  {
+    "id": 6,
+    "course": "CERTIFICATE IN FIRE & SAFETY-L2",
+    "duration": "6 Month",
+    "eligibility": "10th & Above"
+  },
+  {
+    "id": 7,
+    "course": "CERTIFICATE OF SAFETY HEALTH AND ENVIRONMENT MANAGEMENT-L1",
+    "duration": "6 Month",
+    "eligibility": "10th & Above"
+  },
+  {
+    "id": 8,
+    "course": "CERTIFICATE IN FIRE & SAFETY-L1",
+    "duration": "3 Month",
+    "eligibility": "10th & Above"
+  },
+  {
+    "id": 9,
+    "course": "CERTIFICATE PROGRAM IN FIRE AND SAFETY",
+    "duration": "1 Month",
+    "eligibility": "Any One"
+  },
+  {
+    "id": 10,
+    "course": "CERTIFICATE IN SAFETY MANAGEMENT",
+    "duration": "8 Days",
+    "eligibility": "Any One"
+  },
+  {
+    "id": 11,
+    "course": "DGMS-FIRST AID PROGRAMME",
+    "duration": "11 Days",
+    "eligibility": "18Years & Above"
+  },
+  {
+    "id": 12,
+    "course": "CERTIFICATE OF FIREFIGHTING TRAINING",
+    "duration": "200Hrs.",
+    "eligibility": "+2 Year Work Exp.",
+    "details": "This intensive training program equips participants with essential firefighting skills and knowledge. Through a combination of theoretical learning and practical exercises, participants learn fire prevention techniques, firefighting strategies, and how to respond to emergency situations effectively."
+  },
+  {
+    "id": 13,
+    "course": "CERTIFICATE OF ENVIRONMENT SAFETY MANAGEMENT TRAINING",
+    "duration": "200Hrs.",
+    "eligibility": "+2 Year Work Exp.",
+    "details": "This course focuses on environmental safety management practices in various industries. Participants learn about environmental regulations, risk assessment, waste management, and strategies for promoting environmental sustainability in the workplace."
+  },
+  {
+    "id": 14,
+    "course": "FIRE AND SAFETY TRAINING PROGRAMME",
+    "duration": "150Hrs.",
+    "eligibility": "+1 Year Work Exp.",
+    "details": "Designed for individuals with basic experience in the field, this training program provides comprehensive instruction on fire safety procedures, hazard identification, and emergency response protocols. Participants gain practical skills to mitigate fire risks and ensure workplace safety."
+  },
+  {
+    "id": 15,
+    "course": "INDUSTRIAL SAFETY TRAINING PROGRAMME",
+    "duration": "150Hrs.",
+    "eligibility": "+2 Year Work Exp.",
+    "details": "This program focuses on industrial safety practices tailored to manufacturing, production, and industrial settings. Participants learn about machinery safety, chemical handling, personal protective equipment (PPE), and regulatory compliance to prevent workplace accidents and injuries."
+  },
+  {
+    "id": 16,
+    "course": "CONSTRUCTION SAFETY MANAGEMENT TRAINING PROGRAMME",
+    "duration": "150Hrs.",
+    "eligibility": "+1 Year Work Exp.",
+    "details": "Geared towards construction industry professionals, this training program covers safety management principles specific to construction sites. Topics include risk assessment, scaffolding safety, electrical safety, and accident prevention measures to ensure a safe working environment on construction projects."
+  },
+  {
+    "id": 17,
+    "course": "CONTROLLING OF WORKPLACE HAZARDS",
+    "duration": "100Hrs.",
+    "eligibility": "+1 Year Work Exp.",
+    "details": "This course focuses on identifying and controlling workplace hazards across various industries. Participants learn about common workplace hazards such as slips, trips, falls, chemical exposures, and ergonomic risks. Strategies for hazard prevention and mitigation are emphasized to promote workplace safety and reduce accidents."
+  }
+]

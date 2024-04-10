@@ -1,0 +1,9 @@
+.job > ul{
+    line-height: 2rem;
+    padding: 1rem 0;
+}
+@media screen and (max-width: 768px) {
+    .job{
+        width: 80vw;
+    }
+}

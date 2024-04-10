@@ -1,0 +1,40 @@
+.abt-1 ul li {
+    display: flex;    
+    padding: 0.5rem;
+}
+
+.abt-1 ul {
+    line-height: 2rem;
+}
+
+.cont-1{
+    background-color: #e6e6e6;
+    padding: 4rem;
+}
+.cont-cont{
+    margin-inline: 2rem;
+    padding: 2rem;
+    /* border: 2px solid black; */
+    border-radius: 1.2rem;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.abt-1{
+    width: 50vw;
+}
+
+@media screen and (max-width: 768px) {
+    .cont-1{
+      padding: 0 !important;
+    }
+    .cont-cont{
+      padding: 2rem 1rem;
+    }
+    .wow {
+        flex-direction: column;
+    }
+    .abt-1{
+        width: 100% !important;
+    }
+  }
